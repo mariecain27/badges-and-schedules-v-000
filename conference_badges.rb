@@ -15,16 +15,10 @@ def assign_rooms(speakers)
   room_counter = 0
   speakers.collect do |name|
   room_counter += 1  
-  puts "Hello, #{name}! You'll be assigned to room #{room_counter}!"
+  "Hello, #{name}! You'll be assigned to room #{room_counter}!"
   end
 end
 
 def printer
 # will output batch_badge_creator and assign_rooms
-  batch_badge_creator(speakers).each do |value|
-    puts value
-  end
-  assign_rooms(speakers).each do |value|
-    puts value
-  end
 end

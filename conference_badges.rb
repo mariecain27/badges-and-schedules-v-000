@@ -1,4 +1,6 @@
 # Write your code here.
+require 'pry'
+
 def badge_maker(name)
 "Hello, my name is #{name}."
 end
@@ -22,6 +24,6 @@ end
 def printer(speakers)
 # will output batch_badge_creator and assign_rooms
   speakers.each do |i|
-   puts i
+   puts i binding.pry
  end
 end

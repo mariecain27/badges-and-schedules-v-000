@@ -18,7 +18,7 @@ def assign_rooms(speakers)
   #only one speaker per room
   #return a list of room assignments
   #can use each_with_index
-  puts "Hello, SPEAKER! You'll need assigned to room ROOM!"
+  puts "Hello, #{name}! You'll need assigned to room ROOM!"
 end
 
 def printer

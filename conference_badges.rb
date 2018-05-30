@@ -12,10 +12,10 @@ def batch_badge_creator(speakers)
 end
 
 def assign_rooms(speakers)
-  room_counter = 0
+  room_counter = 1
   speakers.collect do |name|
-  room_counter += 1  
   "Hello, #{name}! You'll be assigned to room #{room_counter}!"
+  room_counter += 1  
   end
 end
 

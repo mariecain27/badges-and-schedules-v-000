@@ -14,5 +14,6 @@ def assign_rooms(speakers)
   #assign each speaker a room
   #only one speaker per room
   #return a list of room assignments
+  #can use each_with_index
   puts "Hello, SPEAKER! You'll ne assigned to room ROOM!"
 end

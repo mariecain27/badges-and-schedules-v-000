@@ -21,4 +21,10 @@ end
 
 def printer
 # will output batch_badge_creator and assign_rooms
+  batch_badge_creator(speakers).each do |value|
+    puts value
+  end
+  assign_rooms(speakers).each do |value|
+    puts value
+  end
 end

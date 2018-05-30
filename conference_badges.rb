@@ -21,6 +21,8 @@ end
 
 def printer(speakers)
 # will output batch_badge_creator and assign_rooms
-  puts batch_badge_creator(speakers)
-  puts assign_rooms(speakers)
+  speakers.each do |i|
+   puts batch_badge_creator(i)
+   puts assign_rooms(i)
+ end
 end

@@ -22,7 +22,7 @@ end
 def printer(speakers)
 # will output batch_badge_creator and assign_rooms
   speakers.each do |i|
-   puts batch_badge_creator(i)
-   puts assign_rooms(i)
+   batch_badge_creator(i)
+   assign_rooms(i)
  end
 end

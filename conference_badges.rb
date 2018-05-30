@@ -13,6 +13,7 @@ def batch_badge_creator(speakers)
 end
 
 def assign_rooms(speakers)
+  speakers.each do |name|
   #assign each speaker a room
   #only one speaker per room
   #return a list of room assignments

@@ -17,3 +17,7 @@ def assign_rooms(speakers)
   #can use each_with_index
   puts "Hello, SPEAKER! You'll ne assigned to room ROOM!"
 end
+
+def printer
+# will output batch_badge_creator and assign_rooms
+end

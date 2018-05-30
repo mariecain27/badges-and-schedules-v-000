@@ -8,6 +8,9 @@ rooms = [1, 2, 3, 4, 5, 6, 7]
 
 def batch_badge_creator(speakers)
   #return an array of badge massages
+  speakers.each do |name|
+    badge_maker(name)
+  end
 end
 
 def assign_rooms(speakers)
